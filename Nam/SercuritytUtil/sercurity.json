@@ -1,0 +1,12 @@
+{
+    "vault": {
+      "enabled": true,
+      "url": "PCKD8Sao8j9SVMeIjZ9VcZI/4w+ExOBP/BZhv8XVzq8=",
+      "key": "PCKD8Sao8j9eKZqZSotQ0BFSfo9sKVo2uyue8EwhS3jYVGE8we4QyPX/AGTOkmyg",
+      "authType": "PCKD8Sao8j+HupHp0KvjAQ==",
+      "token": "PCKD8Sao8j8rXqg6W88xLCeM4jaJwot3XjJuOK7LvhjAUpKtx9FuBw==",
+      "username": "user",
+      "password": "secret",
+      "securityKey": "rcms@!@#"
+    }
+}
