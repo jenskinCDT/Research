@@ -1,0 +1,1 @@
+{"vault": {"enabled": true, "url": "http://10.0.129.75:8200", "key": "build-uat/tcis-ssc-keycloak/settings", "authType": "token", "token": "s.HtcqBSWwzMZKQuL5TYHNIxOf", "username": "user", "password": "secret", "securityKey": "rcms@!@#"}}
