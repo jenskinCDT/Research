@@ -1,3 +1,4 @@
+import json
 import hvac
 import Decrypt
 
@@ -9,5 +10,6 @@ def read_vault(token,path,url):
     )
     return read_secret_result["data"]["data"]
 def Get_Vault_web():
-    x=Decrypt.decrypt_vault("appsetting.json")
-    return read_vault(x["token"],x["key"],x["url"])
+    x=json.loads(Decrypt.decrypt_vault("appsetting.json"))
+    print(x["vault"])
+    return read_vault(x["vault"]["token"], x["vault"]["key"], x["vault"]["url"])
