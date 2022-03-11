@@ -1,0 +1,8 @@
+{
+  "realm": "tcis",
+  "auth-server-url": "https://10.1.38.58:7000/auth/",
+  "ssl-required": "external",
+  "resource": "web-reactjs",
+  "public-client": true,
+  "confidential-port": 0
+}
